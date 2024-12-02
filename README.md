@@ -1,6 +1,12 @@
 # :boat: Voyage
 
-Voyage is a Rust-based network probing tool that leverages the Diamond Miner algorithm to perform traceroute operations. It supports multiple output formats including Atlas, Iris, MetaTrace, and Scamper wart (binary). The tool is designed to be efficient and configurable, allowing users to specify various parameters such as TTL range, ports, confidence level, and probing rate.
+Voyage is the new version of the Paris Traceroute tool that was initially developed in C at Pierre and Marie Curie University, the predecessor to today's Sorbonne University.
+
+This version is in Rust, so as to be more easily readable, maintainable, and, since it does not have library dependencies, more portable. It also incorporates numerous improvements with respect to the earlier versions.
+
+Voyage is being developed and maintained by Sorbonne University's SUMMIT unit under contract with the Dioptra research group at the LIP6 computer science laboratory, a joint Sorbonne/CNRS laboratory. Partial funding comes from a French Ministry of Armed Forces cybersecurity grant, and the work is being conducted in collaboration with Measurement Lab.
+
+Voyage leverages the Diamond Miner algorithm to perform its route tracing operations. It supports multiple output formats including Atlas, Iris, MetaTrace, and Scamper Warts (binary). The tool is designed to be efficient and configurable, allowing users to specify various parameters such as TTL range, ports, confidence level, and probing rate.
 
 :warning: This is a research project and is still under development. Use it at your own risk.
 
